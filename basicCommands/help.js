@@ -28,7 +28,7 @@ module.exports = {
       
         {
           name: '▶️  Utility',
-          value: '`kick`, `ban`, `serverinfo`,`userinfo`',
+          value: '`kick`,`serverinfo`,`userinfo`',
           inline: true,
         }
       )
