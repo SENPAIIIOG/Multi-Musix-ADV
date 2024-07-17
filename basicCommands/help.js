@@ -53,6 +53,23 @@ module.exports = {
       .setThumbnail(botUser.avatarURL({ dynamic: true, format: 'png', size: 1024 }))
       .setImage(`https://cdn.discordapp.com/attachments/1170606500994093156/1263044707534241802/static_1.png?ex=6698cd8c&is=66977c0c&hm=b4c277b27756af653c8ba396371e53302a5694bac6cb1f81e9c2762c46280c44&`);
     
+    const button1 = new ButtonBuilder()
+      .setLabel('YouTube')
+      .setURL('https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A')
+      .setStyle(ButtonStyle.Link);
+
+    const button2 = new ButtonBuilder()
+      .setLabel('Discord')
+      .setURL('https://discord.gg/xQF9f9yUEM')
+      .setStyle(ButtonStyle.Link);
+
+    const button3 = new ButtonBuilder()
+      .setLabel('Code')
+      .setURL('https://github.com/GlaceYT')
+      .setStyle(ButtonStyle.Link);
+
+    const row = new ActionRowBuilder()
+      .addComponents(button1, button2, button3);
     message.reply({ embeds: [embed], components: [row] });
   },
 };
