@@ -22,7 +22,7 @@ module.exports = {
       
         {
           name: '▶️  Basic',
-          value: '`avatar`, `userinfo`',
+          value: '`avatar`, `owner`, `userinfo`',
           inline: true,
         },
       
