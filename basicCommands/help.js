@@ -17,7 +17,7 @@ module.exports = {
         url: 'https://discord.gg/rcBJa2GTUz'
     })
      
-      .setDescription(`__**STATS :**__\n\n> **📊 Bot in servers:** ${serverCount}\n> **🟢 Bot Ping:** ${botPing}ms\n> **👑 Made By [HOGWARTS](https://discord.gg/rcBJa2GTUz)**\n\n__**COMMANDS :**__ `)
+      .setDescription(`__**STATS :**__\n\n> **📊 Bot in servers:** ${serverCount}\n> **🟢 Bot Ping:** ${botPing}ms\n> **👑 Made By [HOGWARTS DEVELOPERS](https://discord.gg/rcBJa2GTUz)**\n\n__**COMMANDS :**__ `)
       .addFields(
       
         {
@@ -26,12 +26,6 @@ module.exports = {
           inline: true,
         },
       
-        {
-          name: '▶️  Fun',
-          value: ' `ascii`, `joke`, `roll`',
-          inline: true,
-        },
-     
         {
           name: '▶️  Utility',
           value: '`kick`, `ban`, `serverinfo`,`userinfo`, `clear`',
