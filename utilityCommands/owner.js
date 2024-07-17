@@ -4,11 +4,11 @@ module.exports = {
     name: 'owner',
     description: 'Bot owner info',
     execute(message, args) {
-        const youtubeLink = 'https://www.youtube.com/@SENPAIII0007';
+        const discordLink = 'https://discord.gg/MZ72E37Ss3';
         const embed = new EmbedBuilder()
             .setColor('#FFFFFF')
             .setTitle(' 🫅 Owner Info')
-            .setDescription(`__**About me**__:\n 🤖 Myself SENPAIII. I am a discord bot developer. I love playing games and building different webserver applications. You will get faster replies on DISCORD than other social media. Feel free to contact me!\n ❤️ [GlceYT](${youtubeLink})\n`)
+            .setDescription(`__**About me**__:\n 🤖 Myself SENPAIII. I am a discord bot developer. I love playing games and building different discord bots. You will get faster replies on DISCORD than other social media. Feel free to contact me!\n ❤️ [SENPAIII](${discordLink})\n`)
             .setTimestamp();
 
 
