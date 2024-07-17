@@ -22,13 +22,13 @@ module.exports = {
       
         {
           name: '▶️  Basic',
-          value: '`avatar`, `owner`, `userinfo`',
+          value: '`avatar`, `say`, `userinfo`',
           inline: true,
         },
       
         {
           name: '▶️  Utility',
-          value: '`kick`, `ban`, `serverinfo`,`userinfo`, `clear`',
+          value: '`kick`, `ban`, `serverinfo`,`userinfo`',
           inline: true,
         }
       )
